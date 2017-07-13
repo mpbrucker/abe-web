@@ -3,7 +3,7 @@ import {render} from 'react-dom';
 import * as fullCalendar from 'fullcalendar/dist/fullcalendar';
 // require('bootstrap');
 // import * as bootstrap from 'bootstrap/js/button.js';
-import * as qtip from '../js/vendor/jquery.qtip.js'
+import * as qtip from '../js/vendor/jquery.qtip.js';
 import {BrowserRouter} from 'react-router-dom';
 import {Switch, Route} from 'react-router-dom';
 // import {UIRouter, UIView, UISref, UISrefActive, pushStateLocationPlugin} from 'ui-router-react';
