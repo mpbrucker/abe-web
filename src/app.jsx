@@ -14,6 +14,7 @@ import AddEditContainer from "./containers/add-edit-container";
 import ViewEventContainer from "./containers/event-details-container";
 import ImportContainer from "./containers/import-container";
 import SubscriptionContainer from "./containers/subscription-container";
+import HatPage from "./pages/hat-page";
 
 // Remove trailing slash, if present
 // TODO: change this from a global to a provider pattern.
@@ -53,6 +54,7 @@ class App extends React.Component {
                 <Route path='/edit/:sid/:rec_id' component={AddEditContainer}/>
                 <Route path='/view/:id' component={ViewEventContainer}/>
                 <Route path='/subscription/:id' component={SubscriptionContainer}/>
+                <Route exact path='/hat' component={HatPage}/>
               </Switch>
             </Router>
           </div>
